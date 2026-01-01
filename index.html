@@ -1988,10 +1988,7 @@
           () => (teamCarouselInterval = setInterval(nextSlide, 6000))
         );
 
-        // Resize handling: reload to simplify recalculation
-        window.addEventListener("resize", () => {
-          location.reload();
-        });
+        
 
         // Initialize position
         setTranslate(currentIndex, false);
